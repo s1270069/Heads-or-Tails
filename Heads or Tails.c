@@ -4,7 +4,12 @@
 int main(){
     int a = 0;
     int count1 = 0, count2 = 0;
+    char str[10];
     srand(1);
+    
+    printf("Who are you?\n");
+    scanf("%s",str);
+    printf("Hello, %s!\n",str);
 
     printf("Tossing a coin...\n");
     for(int i = 1; i < 4; i++){
